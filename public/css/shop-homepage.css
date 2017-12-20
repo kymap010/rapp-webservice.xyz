@@ -1,0 +1,133 @@
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.carousel{
+    margin-top: 20px;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+  opacity: .5;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: none;
+}
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-control.right {
+  left: auto;
+  right: 0;
+  background-image: none;
+}
+
+.carousel-control {
+  padding-top:10.25%;
+  width:5%;
+}
+
+
+.carousel .item img {
+width: 100%;
+height: 100%;
+}
+
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+
+.caption {
+    height: 150px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    /*padding-right: 10px;
+    padding-left: 10px;*/
+    color: #d17581;
+}
+
+.thumbnailbtn{
+    border-radius: 0px;
+}
+.thumbnailbtn span{
+    padding-left:10px; 
+    padding-right:7.2px; 
+}
+    
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+.thumbnail img{    
+    height: 230px;
+}    
+.caption h4{
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}   
+        
+.post-img-content img
+{
+position	: relative;
+	width		: 100%;
+}
+        
+.round-tag{
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 50% 0;
+    border: 4px solid #FFF;
+    background: #d9534f;
+
+    bottom: 0px;
+    padding: 15px 6px;
+    font-size: 17px;
+    color: #FFF;
+    font-weight: bold;
+    
+    position:absolute;
+	top:171px;
+	left: 15px;
+	width: 60px;
+}
+
+footer {
+    margin: 50px 0;
+}
