@@ -1,56 +1,30 @@
-## Laravel 5 example ##
+## Laravel 5 проект Aliexrepss vs. eBay ##
 
-**Laravel 5 example** is a tutorial application (in french [there](http://laravel.sl-creation.org/)).
+### Модули ###
 
-### Installation ###
+* [Bootstrap](http://getbootstrap.com) свободный набор инструментов для создания сайтов и веб-приложений. Включает в себя HTML- и CSS-шаблоны оформления для типографики, веб-форм, кнопок, меток, блоков навигации и прочих компонентов веб-интерфейса, включая JavaScript-расширения. Bootstrap использует современные наработки в области CSS и HTML, поэтому необходимо быть внимательным при поддержке старых браузеров. 
+* CKEditor – свободный WYSIWYG-редактор, который может быть использован на веб-страницах. Панель редактора очень напоминает панель небезызвестного MS Word;
+* Elfinder – популярный файловый менеджер с веб-интерфейсом от российских разработчиков. Он предназначен для управления файлами на хостингах и веб-сайтах. Позволяет просматривать и редактировать текстовые файлы, создавать и распаковывать архивы, имеет превью для картинок, сортировка файлов и многое другое;
+* Carbon - это простое API-расширение для DateTime. Оно расширеят класс некоторыми полезными методами для работы с датой и временем;
 
-* `git clone https://github.com/bestmomo/laravel5-example.git projectname`
-* `cd projectname`
-* `composer install`
-* `php artisan key:generate`
-* Create a database and inform *.env*
-* `php artisan migrate --seed` to create and populate tables
-* Inform *config/mail.php* for email sends
-* `php artisan vendor:publish` to publish filemanager
-* `php artisan serve` to start the app on http://localhost:8000/
+### Описание ###
 
-### Include ###
+Веб приложение, которое облегчает подбор товаров на торговой площадке eBay и Aliexpress.
+Реализован следующий функционал:
+1.	Регистрация учетной записи пользователя;
+2.	Роли пользователей: администратор, модератор и обычный пользователь;
+3.	Аутентификация, авторизация и идентификация пользователя;
+4.	Редактирование пользовательских данных;
+5.	Поиска товаров на торговой площадке eBay и Aliexpress  по ключевому слово;
+6.	Поиск товаров у одного продавца;
+7.	Поиск товаров в  диапазоне цен и в определенных категориях;
+8.	Сортировка по цене, рейтингу и новизне товара;
+9.	Обсуждение товара и продавца с другими пользователями;
+10.	Добавление выбранных товаров в список избранных;
+11.	Мониторинг стоимости товара с построением графика динамики цен;
+12.	Просмотр обсуждений наиболее популярных товаров;
+13.	Добавление комментарий в социальных сетях;
+14.	Добавление, редактирование и удаление публикаций;
+15.	Обратная связь, для поддержки контакта с пользователями;
+16.	Панель управления администратора с возможностью контроля новых пользователей, комментарий, публикаций и сообщений.
 
-* [HTML5 Boilerplate](http://html5boilerplate.com) for front architecture
-* [Bootstrap](http://getbootstrap.com) for CSS and jQuery plugins
-* [Font Awesome](http://fortawesome.github.io/Font-Awesome) for the nice icons
-* [Highlight.js](https://highlightjs.org) for highlighting code
-* [Startbootstrap](http://startbootstrap.com) for the free templates
-* [CKEditor](http://ckeditor.com) the great editor
-* [Filemanager](https://github.com/simogeo/Filemanager) the easy file manager
-
-### Features ###
-
-* Home page
-* Custom Error Page 404
-* Authentication (registration, login, logout, password reset, mail confirmation, throttle)
-* Users roles : administrator (all access), redactor (create and edit post, upload and use medias in personnal directory), and user (create comment in blog)
-* Blog with comments
-* Search in posts
-* Tags on posts
-* Contact us page
-* Admin dashboard with new messages, users, posts and comments
-* Users admin (roles filter, show, edit, delete, create)
-* Messages admin
-* Posts admin (list with dynamic order, show, edit, delete, create)
-* Medias gestion
-* Localisation
-
-### Packages included ###
-
-* laravelcollective/html
-* bestmomo/filemanager
-
-### Tricks ###
-
-To test application the database is seeding with users :
-
-* Administrator : email = admin@la.fr, password = admin
-* Redactor : email = redac@la.fr, password = redac
-* User : email = walker@la.fr, password = walker
-* User : email = slacker@la.fr, password = slacker
